@@ -1,0 +1,176 @@
+
+/* Custom styles for the About section */
+.about-section {
+    background-color: #f8f9fa; /* Light background to contrast with image */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.row{
+    margin-top:50px;
+}
+
+.about-image {
+    width: 300px;
+    height: 300px;
+    background-image: url('assets/images/profile/Profile Picture.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h2 {
+    color: #343a40;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.about-content p {
+    color: #6c757d;
+    font-size: 1.1rem;
+    margin: 20px 0;
+}
+
+        /* Custom styles for the Projects section */
+.projects-section {
+    background-color: #ffffff; /* White background for the projects section */
+    padding: 60px 0; /* Padding to give space around the section */
+}
+
+.section-title {
+    color: #343a40; /* Dark gray color for the section title */
+    font-size: 2.5rem; /* Larger font size for the section title */
+    font-weight: 700; /* Bold font weight for the section title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.section-subtitle {
+    color: #6c757d; /* Lighter gray for the subtitle */
+    font-size: 1.2rem; /* Slightly larger font size for the subtitle */
+    margin-bottom: 40px; /* Space below the subtitle */
+}
+
+.card {
+    border: none; /* Remove the default border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a floating effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.card-img-top {
+    border-radius: 0; /* Remove rounded corners from the image */
+    height: 200px; /* Fixed height for the images */
+    object-fit: cover; /* Ensure the image covers the entire area without distortion */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Medium font size for project titles */
+    color: #343a40; /* Dark gray for the title */
+    margin-bottom: 15px; /* Space below the title */
+}
+
+.card-text {
+    color: #6c757d; /* Lighter gray for the text */
+    font-size: 1rem; /* Standard font size for the text */
+}
+
+/* Custom styles for the Skills section */
+.skills-section {
+    background-color: #f8f9fa; /* Light background to distinguish from other sections */
+    padding: 60px 0; /* Padding around the section */
+}
+
+.skill-item {
+    text-align: center; /* Center align text and icons */
+    padding: 20px; /* Padding inside each skill item */
+    background-color: #ffffff; /* White background for each skill item */
+    border-radius: 10px; /* Rounded corners for skill items */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.skill-item:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.skill-icon {
+    width: 80px; /* Fixed size for the skill icons */
+    height: 80px; /* Fixed size for the skill icons */
+    margin-bottom: 15px; /* Space below the icon */
+}
+
+.skill-title {
+    font-size: 1.2rem; /* Medium font size for skill titles */
+    color: #343a40; /* Dark gray for the skill title */
+}
+
+/* Custom styles for the Contact Me section */
+.contact-section {
+    background-color: #343a40; /* Dark background for contrast */
+    padding: 60px 0; /* Padding around the section */
+    color: #ffffff; /* White text color */
+}
+
+.contact-section .section-title,
+.contact-section .section-subtitle {
+    color: #ffffff; /* Ensure titles are white */
+}
+
+.contact-icon {
+    display: inline-block;
+    padding: 15px;
+    background-color: #495057; /* Slightly lighter dark background */
+    border-radius: 50%; /* Round shape */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.contact-icon img {
+    width: 50px; /* Size of the icons */
+    height: 50px; /* Size of the icons */
+}
+
+.contact-icon:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+/* Custom styles for the Sticky Navigation Bar */
+.navbar {
+    padding: 10px 0; /* Padding for the navbar */
+    transition: all 0.3s ease; /* Smooth transition for the navbar */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Bold text for the brand name */
+    color: #ffffff !important; /* White color for the brand name */
+}
+
+.nav-link {
+    color: #ffffff !important; /* White color for the links */
+    padding: 8px 15px; /* Padding around the links */
+    transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+.nav-link:hover {
+    color: #17a2b8 !important; /* Change link color on hover */
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1); /* Light border for the toggle button */
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Custom color for the toggle icon */
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
